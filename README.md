@@ -2,7 +2,6 @@
 
 This project performs customer segmentation on a mall customer dataset to identify distinct groups based on their spending habits and income. The analysis uses two popular clustering algorithms: **K-Means Clustering** and **DBSCAN**.
 
-Project Overview Section
 
 ### 📌 Project Overview
 
@@ -11,7 +10,6 @@ Project Overview Section
 - **DBSCAN**: Implemented DBSCAN to find density-based clusters and identify potential outliers.
 - **Cluster Analysis**: Analyzed and interpreted the characteristics of each cluster to understand customer behavior.
 
-Tech Stack Section
 
 ### 🛠️ Tech Stack
 
@@ -20,7 +18,6 @@ Tech Stack Section
 - **Matplotlib, Seaborn**: For data visualization.
 - **Scikit-learn**: For machine learning and clustering algorithms.
 
-Dataset Section
 
 ### 📂 Dataset
 
@@ -32,7 +29,6 @@ The analysis is based on the `Mall_Customers.csv` dataset, which includes the fo
 - `Annual Income (k$)`
 - `Spending Score (1-100)`
 
-Exploratory Data Analysis
 
 ### 📊 Exploratory Data Analysis
 
@@ -40,21 +36,18 @@ Exploratory Data Analysis
 - Visualized the distribution of `Annual Income` and `Spending Score`.
 - Created scatter plots to visualize the data points and initial potential clusters.
 
-Models Implemented
 
 ### 🤖 Models Implemented
 
 - **K-Means Clustering**: A centroid-based algorithm used to partition the data into a predefined number of clusters.
 - **DBSCAN**: A density-based algorithm that discovers clusters of arbitrary shapes and is effective at identifying noise points.
 
-Model Evaluation
 
 ### 📈 Model Evaluation & Analysis
 
 - The results of both clustering algorithms are evaluated by examining the final clusters' characteristics.
 - The final analysis provides insights into different customer segments, such as "High Income, Low Spending" or "Average Income, Average Spending," which can be used for targeted marketing strategies.
 
-Visualizations
 
 ### 📷 Visualizations
 
